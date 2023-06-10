@@ -10,7 +10,7 @@
 
 # Release说明
 ## full-SC
-Release包含基础的CPU模块。如果需要提交到在线平台进行验证，那么可以直接使用。
+Release包含基础的CPU模块和Testbench。
 ## 本地仿真
 本模块可以在ModelSim等软件上完成仿真，但testbench文件并没有给出。以下是一个可能可用的testbench代码。
 ~~~
@@ -51,6 +51,8 @@ module local_tb();
 endmodule
 ~~~
 其中，filename.hex是一个存储了测试指令的二进制文件。这个文件可以自行由一些RISC-V指令汇编得到。
+## 联系作者
+除了Github外，您可通过gugugugugutian@whu.edu.cn邮箱联系。
 
 
 # 模块介绍
